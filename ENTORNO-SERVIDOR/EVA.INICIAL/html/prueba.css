@@ -1,0 +1,74 @@
+body{
+    background-color:antiquewhite;
+}
+#titulo{
+    text-align: center;
+    background-color:lemonchiffon ;
+    width: auto;
+    height: auto;
+    border-style: outset;
+}
+#titulo img{
+    padding-top: 20px;
+   
+    float: right;
+    width: 80px;
+    height: 80px;
+}
+#logoSup{
+    padding-right: 20px;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+}
+
+#descrip{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#gallery{
+    width: 100%;
+}
+
+table img{
+    width: 450px;
+    height: 250px;
+    
+}
+table{
+    background-color: white;
+    margin: auto;
+}
+#contact, h3{
+    text-align: center;
+}
+
+#contact{
+    display: -webkit-flex; /*para que los dos div queden a la misma altura*/
+   	display: flex;
+}
+#formu{
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding-left: 50px;
+}
+
+#direccion{
+    width: 50%;
+    float: rleft;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+textarea{
+    width: 70%;
+    height: 300%;
+}
+form{
+    padding-left: 100px;
+    text-align: justify;
+}
