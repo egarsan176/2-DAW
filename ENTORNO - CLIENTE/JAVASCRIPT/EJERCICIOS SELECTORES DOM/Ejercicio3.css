@@ -1,0 +1,30 @@
+body {
+  background-color: khaki;
+}
+
+#tablita {
+  border-collapse: collapse;
+  border-color: black;
+  margin: auto;
+  background-color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+#formu {
+  padding-top: 50px;
+  text-align: center;
+}
+
+input {
+  width: 40px;
+}
+
+button {
+  padding: 5px;
+  margin-top: 10px;
+}

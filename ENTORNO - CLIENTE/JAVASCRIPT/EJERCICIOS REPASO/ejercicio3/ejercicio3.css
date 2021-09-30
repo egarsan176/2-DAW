@@ -1,0 +1,15 @@
+#espacio{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+
+#bot{
+    background-color: cadetblue;
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    font-style: italic;
+}
