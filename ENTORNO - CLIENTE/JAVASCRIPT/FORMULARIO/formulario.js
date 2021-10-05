@@ -6,7 +6,7 @@ const apellidos = document.getElementById('ape');
 const telefono = document.getElementById('tel');
 const dni = document.getElementById('dni');
 const estado = document.getElementById('estado');
-const hijos = document.getElementById('hijosSI');
+const hijos = document.getElementById('hijos');
 const hijosNO = document.getElementById('hijosNO');
 const email = document.getElementById('correo');
 const autorizo = document.getElementById('autorizo');
@@ -109,9 +109,6 @@ hijos.addEventListener('change', (e) => {//compruebo que al menos se marque una
     if (document.getElementById("hijosSI").checked || document.getElementById("hijosNO").checked){ 
         formIsValid.hijos = true;
     }
-    else {
-        formIsValid.hijos = false;
-    }
     
 })
 
@@ -135,7 +132,7 @@ const validateForm = () => {
     const valid = formValues.findIndex(value => value == false);
 
     if(valid == -1){
-        formu.onsubmit();
+        formu.submit();
     }else{
         
         for (i =0; i<formValues.length;i++){

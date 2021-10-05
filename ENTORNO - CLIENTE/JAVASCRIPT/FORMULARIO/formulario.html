@@ -18,7 +18,7 @@
 
             <div id="cuerpo" >
 
-                <form action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" method="post" >
+                <form action="http://www.iesjacaranda.es/lmsgi/resultado.php" method="post" >
                     <label>Nombre:*</label>
                     <input type="text" placeholder="Nombre" id="nom" required ><br>
 
@@ -40,11 +40,14 @@
                         <option value="4">Viudo</option>
                     </select><br>
 
-                    <label name="hijos">Hijos:</label>
-                    <label>Sí</label>
-                    <input type="radio" id="hijosSI" value="SI" name="hijos">
-                    <label>No</label>
-                    <input type="radio" id="hijosNO" value="NO" name="hijos"><br>
+                    <div id="hijos">
+                        <label name="hijos">Hijos:</label>
+                        <label>Sí</label>
+                        <input type="radio" id="hijosSI" value="SI" name="hijos">
+                        <label>No</label>
+                        <input type="radio" id="hijosNO" value="NO" name="hijos"><br>
+                    </div>
+                    
                     
                     <div id="oculto" class="oculto">
                         <label  id="canHi">Indique cuántos:</label>
