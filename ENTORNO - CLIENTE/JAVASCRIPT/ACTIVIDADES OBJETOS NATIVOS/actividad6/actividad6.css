@@ -19,6 +19,11 @@ img {
   height: 300px;
 }
 #intro,
-#opcion {
+#opcion,
+#historial {
   text-align: center;
+}
+
+#historial {
+  margin-top: 10px;
 }
