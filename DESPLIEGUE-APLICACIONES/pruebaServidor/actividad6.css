@@ -1,0 +1,29 @@
+#principal {
+  background-color: rgb(148, 213, 237);
+}
+#pagA {
+  background-color: burlywood;
+}
+#pagB {
+  background-color: darkkhaki;
+}
+#pagC {
+  background-color: rgb(243, 229, 118);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  width: 450px;
+  height: 300px;
+}
+#intro,
+#opcion,
+#historial {
+  text-align: center;
+}
+
+#historial {
+  margin-top: 10px;
+}
